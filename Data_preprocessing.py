@@ -100,6 +100,3 @@ for i in range(0,rows):
       neutral=neutral+1
 
 print("Positive :"+str(pos) + " Negative :" + str(neg) + " Neutral :"+ str(neutral))
-
-########################################################## Training the Model ################################################################
-
