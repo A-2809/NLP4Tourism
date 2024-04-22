@@ -1,4 +1,4 @@
-# NLP to Predict International Tourist Arrivals
+# NLP For International Tourist Arrival Prediction
 A novel regression framework is developed in this work to estimate international tourist arrival in 38 Organization for Economic Co-operation and Development (OECD) countries by combining significant socio-economic-environment features and a natural language processing (NLP) developed social media index. The index is self-developed based on TripAdvisor reviews by using classical machine learning techniques. A pre-trained BERT model is fine-tuned with the reviews from different countries, collected from a tourism portal to generate country-wise feedback scores, which are used as an additional feature with the other features for tourism arrival estimation using an adaptive boosting technique. The outcomes demonstrate that the proposed framework performs reasonably well. The findings of this study can be utilized to make decisions that support the growth of sustainable tourism.
 
 ## Prerequisites
