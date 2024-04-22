@@ -46,7 +46,7 @@ The required portion of the code (in `tourist_prediction.py`) to run a given BER
 
 ## Contact
 
-For any further query, comment or suggestion, you may reach out to archana19@iiserb.ac.in and welcometanmay@gmail.com
+For any further query, comment or suggestion, you may reach out to archanayadavrbt@gmail.com and welcometanmay@gmail.com
 
 ## Citation
 ```
