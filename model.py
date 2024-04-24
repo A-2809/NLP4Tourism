@@ -27,7 +27,6 @@ from sklearn.neural_network import MLPRegressor
 
 #training datasets
 train_df = pd.read_csv(r'/home/guest/Archana/Data/new_bs_svm_avg.csv')
-#print (train_df)
 
 # #checking columns for NaN values
 # d = train_df.isnull().sum(axis=0)
@@ -58,7 +57,6 @@ train_df = pd.read_csv(r'/home/guest/Archana/Data/new_bs_svm_avg.csv')
 # Remove columns
 columns_to_drop = ['COUNTRY', 'Country']
 train_df = train_df.drop(columns=columns_to_drop)
-#df = train_df.fillna(train_df.mean())
 
 ####################### missing value for the remaining ones
 
