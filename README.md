@@ -31,16 +31,6 @@ Additional Notes:
 Ensure proper configurations and data paths are set in each script before execution.
 For any further details or inquiries, refer to the comments within each script or reach out to the repository maintainers.
 ```
-Pass the path of the project e.g., `/home/xyz/nlp4tourism/` as a parameter of the main class in `model.py`. Create the following directories inside this path: 1) `training_data`, 2) `test_data`. Therefore keep the individual PDFs of training and test data in the respective directories. The list of keywords to build the training data should be stored as `keywords.txt` in the main project path. Create a directory, called, `output` in the main project path to store the outputs of individual test samples. 
-
-Subsequently, run the following lines to get relevant sentences of geometric errors of radiotherapy for individual test documents. 
-
-
-de=data_extraction('/home/xyz/nlp4tourism/',model='entropy',clf_opt='s',no_of_selected_terms=1500,threshold=0.5)  
-de.build_training_data()       
-de.tourist_prediction()
-
-
 The following options of `model` are available and the `default` is `entropy`: 
 
         'bert' for BERT model
